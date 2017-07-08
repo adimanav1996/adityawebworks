@@ -1,0 +1,341 @@
+*{
+box-sizing: border-box;
+    font-family: cursive;
+        font-size: 2vh;
+}
+.navbar{
+    box-shadow: 0px 8px 16px 0px;
+    rgba(80,100,50,0.2);
+    height: 25px;
+    overflow: hidden;
+    margin: 2px;
+}
+.navbar img{
+    position: absolute;
+    display: inline-block;
+    width: inherit;
+
+}
+.right{
+    float: right;
+}
+.navbar ul{
+    list-style-type: none;
+    float: left;
+    margin-left: 100px;
+    display: inline block;
+}
+.navbar li{
+    text-align: right;
+    float: left;
+    background-color: whitesmoke;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+
+}
+[type="button"]{
+    float: left;
+   
+    border-radius: 5px;
+}
+#login{
+    background-color:green;
+    padding: 20px;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 15px;
+}
+#login:hover{
+    background-color: darkgreen;
+}
+#post{
+    display: block;
+    background-color:orange;
+    padding: 20px;
+    text-align: justify;
+    font-size: 20px;
+text-align: center;}
+#post:hover{
+    background-color: darkorange;
+}
+.work{
+    width: 100%;
+    height: 800px;
+    position: inherit;
+}
+.work img{
+    width: inherit;
+    height: 600px;
+    display: block;
+}
+#imgbox{
+    max-width: 40%;
+    margin-left: 40%;
+    top: 15%;
+    position: relative;
+}
+#text{
+    display: block;
+    text-align: center;
+    padding: 30px;
+}
+.floater{
+    display: block;
+    margin: 10px;
+    overflow: hidden;
+    width: inherit;
+    height: 275px;
+    float:none;
+    transform: translate3d(-1000px,0px;,0px);
+    transition: 0s;
+}
+
+.boxs{
+    display: block;
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0px 8px 16px 0px;
+    rgba(80,100,50,0.2);
+    overflow: hidden;
+}
+.imgdes{
+    float: left;
+    width: inherit;   
+}
+.background{
+    height: 100vh;
+    background-image: url(E:\web\\cc41329f3ced5d49fe24c854426ea13dc7a9.0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: timer;
+    animation-duration: 10sec;
+    animation-iteration-count: infinite;
+}
+.background spam{
+    width: inherit;
+    position: relative;
+    top: 40%;
+}
+#casestud{
+    top: 50%;
+}
+.text-center{
+    top:35vh;
+    position: relative;
+}
+@keyframes timer{
+   25%  {background-image: url(E:\web\\11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;}
+    50%  {background-image: url(E:\web\\12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;}
+    75%  {background-image: url(E:\web\\13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;}
+    100% {background-image: url(E:\web\\14.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;}
+}
+#text2{
+    position: relative;
+    top: 50%;
+    padding: 10vh;
+    margin: 10px;
+    align-content: center;
+    align-self: center;
+}
+.footer{
+    width: inherit;
+    height: 100vh;
+    background-color: seagreen;
+    color: aliceblue;
+    font-size: 20px;
+    float: none;
+}
+.footer a{
+    color: ghostwhite;
+    float: left; 
+}
+.topcompanies{
+    widows: inherit;
+  padding: 25px;
+    background-color:aquamarine;
+    overflow: hidden;
+    
+}
+.profile{
+    widows: inherit;
+    height: 40vh;
+    position: relative;
+    overflow: hidden;
+}
+.profile img{
+    width: 50%;
+    height: 50%;
+}
+.reply{
+    position: relative;
+    overflow: hidden;
+    margin: 3vw;
+}
+.reply spam{
+    left: 40%;
+}
+a{
+    font-size: 4vh;
+    display: block;
+}
+a:hover{
+    color: yellow;
+}
+boxs:hover{
+     box-shadow: 0px 8px 16px 0px;
+    rgba(0,100,150,0.2);
+}
+    spam{
+        float: none;
+        display: block;
+        text-align: left;
+        font-size: 18px;
+        padding: 5px;
+        margin: 10px;
+        overflow: hidden;
+    }
+boxs:hover{
+    color: yellow;
+    background-color: gainsboro;
+   
+}
+reply{
+    overflow: hidden;
+}
+}
+.rowbox{
+    width: 100%;
+    height: 25vh;
+    float: left;
+}
+.rowbox img:hover{
+    opacity: 0.5;
+    box-shadow: 0px 8px 16px 0px;
+    rgba(80,100,50,0.2);
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: black;
+}
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #999;
+  cursor: pointer;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.img-responsive{
+    max-width: 85%;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.column{
+    width:25%;
+    height: 70px;
+    float: left;
+}
+.container-fluid{
+    width: 100%;
+    height: auto;
+    display: block;
+    float: none;
+}
+@media only screen and (max-width: 425px) {
+    body {
+        background-color: lightblue;
+    }
+    .background{
+        overflow: hidden;
+        float: none;
+    }
+    h3, .h3 {
+    font-size: 2em;
+}
+    .img-responsive {
+    max-width: 85%;
+    height: 45%;
+    margin-top: 2em;
+}
+    spam{
+        text-align: center;
+    }  
+    h1{
+        font-size: 2em;
+    }
+    [type="button"]{
+    width: 100%;
+    margin: 0.2em;
+    }
+}

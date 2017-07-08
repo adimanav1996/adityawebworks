@@ -1,0 +1,99 @@
+.navbar-inverse{
+    color: whitesmoke;
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: 0px;
+}
+.header{
+    margin-top: 0px;
+    width: inherit;
+    height: 150px;
+    float: right;
+    background-color: lightgrey;
+    overflow: hidden;
+}
+.logo{
+    width: 300px;
+    height: 100px;
+    float: left;
+    margin: 20px;
+}
+.login{
+    background-color: dodgerblue;
+    width: inherit;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: monospace;
+    font-size: 30px;
+}
+pagination{
+    display:inline-block;
+    box-sizing: border-box;
+}
+.pagination{
+    text-align:center;
+}
+.pagination li{
+    display:block;
+    float:left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+.pagination li:hover:not(.active) {background-color: #ddd;}
+.pagination li:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pagination li:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.pagination li{
+    margin: 0 4px; /* 0 is for top and bottom. Feel free to change it */
+}
+
+
+.travel{
+    padding: 50px;
+    margin: 20px;
+}
+.col-md-6:hover{
+    color: yellow;
+    text-underline-position: none;
+}
+a:hover{
+    text-decoration-color: blueviolet;
+    text-emphasis-color: mediumvioletred;
+    
+}
+.container{
+    padding-left: -20px;
+margin-left: 20px;
+}
+.col-xs-3{text-decoration-color: white;
+    margin: 15px;
+    padding: 15px;
+}
+.nav-stacked{
+    padding: 30px;
+    margin: 20px;
+}
+.services{
+    background-color: black;
+    text-decoration-color: ghostwhite;
+    text-emphasis-color: yellow;
+}
+.footer{
+    background-color: darkgrey;
+    padding-left: 40px;
+    text-decoration-color: yellow;
+    width: inherit;
+    color: cornsilk;
+    font-weight: 300;
+    height: 100px;
+}
